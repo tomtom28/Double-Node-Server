@@ -12,8 +12,27 @@
 // include http module
 var http = require('http');
 
-// include twitter module
-var twitter = require('twitter');
+// ------------------------ link in Twitter ------------------------
+// var myTwitterUserName = 'tommytom828';
+
+// // include twitter module
+// var twitter = require('twitter');
+
+// // Link in API Keys for Twitter
+// var apiKeys = require('./keys.js');
+
+// var client = new Twitter({
+//   consumer_key: apiKeys.twitterKeys.consumer_key,
+//   consumer_secret: apiKeys.twitterKeys.consumer_secret,
+//   access_token_key: apiKeys.twitterKeys.access_token_key,
+//   access_token_secret: apiKeys.twitterKeys.access_token_secret
+// });
+
+// var params = {
+//     screen_name: myTwitterUserName,
+//     count: 20
+// };
+// -----------------------------------------------------------------
 
 // declare ports
 var PORT1 = 7000;
