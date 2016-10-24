@@ -1,0 +1,23 @@
+{
+  "name": "double-node-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "twoServers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomtom28/Double-Node-Server.git"
+  },
+  "author": "tomtom28",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomtom28/Double-Node-Server/issues"
+  },
+  "homepage": "https://github.com/tomtom28/Double-Node-Server#readme",
+  "dependencies": {
+    "http": "0.0.0",
+    "twitter": "^1.4.0"
+  }
+}
